@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
-public class ControlePoissonDash : MonoBehaviour
+public class controlePoissonDashDemo : MonoBehaviour
 {
     private Rigidbody _rb;
 
@@ -14,6 +14,7 @@ public class ControlePoissonDash : MonoBehaviour
 
     void OnDash()
     {
-        //_rb.AddRelativeForce(Vector3.forward * 1f, ForceMode.VelocityChange);
+        print("DASH!");
+        _rb.AddRelativeForce(0, 0, 2f, ForceMode.VelocityChange);
     }
 }

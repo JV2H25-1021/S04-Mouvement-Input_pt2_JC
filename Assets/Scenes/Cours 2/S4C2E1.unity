@@ -155,7 +155,7 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
+  m_DefaultControlScheme: Keyboard
   m_DefaultActionMap: Poisson
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
@@ -169,7 +169,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 2
-  m_AngularDrag: 0
+  m_AngularDrag: 5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -186,7 +186,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &244657889
+--- !u!114 &244657891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 244657884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5c35e3bb4765fb40a1968ca1b4940c5, type: 3}
+  m_Script: {fileID: 11500000, guid: d9b1a410bd9dcd846ad5d7f9d67e3ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &330585543
@@ -789,7 +789,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3351268252439224420, guid: 741dc339d3f1f1547a6caa4ddec62683,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 244657889}
+      addedObject: {fileID: 244657891}
   m_SourcePrefab: {fileID: 100100000, guid: 741dc339d3f1f1547a6caa4ddec62683, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
